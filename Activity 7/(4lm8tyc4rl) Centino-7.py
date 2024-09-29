@@ -79,6 +79,16 @@ while True:
     
     print("\n")
 
+   # Calculate the total bonus by summing individual department bonuses
+    total_bonus = _itbonus + _acctbonus + _hrbonus
+
+   # Display the total bonus
+    print(f"THE TOTAL BONUS IS: {total_bonus}")
+
+  # Add an empty line for better readability
+    print("\n")
+    
+
   # Ask the user if they want to create another employee record
     choice = input("CREATE ANOTHER EMPLOYEE? [Y/ANY EMPLOYEE]: ")
     if choice =="Y" or choice =="y":
